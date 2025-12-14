@@ -1,72 +1,75 @@
-# LumaSmart Store (Frontend Only) — Portfolio Website
+# LumaSmart Jacket Store
 
-Apple-inspired, frontend-only e-commerce concept for **LumaSmart Jacket** with **variant selection** (5 colorways) and a **mock checkout flow** (no backend).
+**[🔗 Live Demo](https://luma-jacket.vercel.app/)** | **[📂 GitHub](https://github.com/ElOlamirewaju/Luma-Jacket)**
 
-## ✅ What this project demonstrates
-- Premium product UI (Apple-style layout, spacing, typography)
-- Framer Motion micro-interactions + page transitions
-- Variant selection (colorways), size selection, quantity, cart drawer
-- Frontend-only “checkout” (order summary + contact/shipping form; stored locally)
+Premium product landing page for a conceptual smart jacket. Apple-inspired design with interactive colorway preview, variant system, and mock checkout flow.
 
-## Tech stack
-- Next.js (App Router) + TypeScript
+---
+
+## ✨ Highlights
+
+- 🎨 **Hardware-grade design language** - Minimal, confident, product-first
+- 🔄 **Interactive hero carousel** - Preview all 6 colorways + prototype
+- 🛍️ **Full e-commerce flow** - Product pages, cart, checkout
+- 📱 **Responsive design** - Premium experience on all devices
+- 🎭 **Subtle micro-interactions** - Polished, never distracting
+- 🖼️ **Professional product photography** - Studio-quality presentation
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js 15 (App Router)
+- TypeScript
 - Tailwind CSS
-- Framer Motion
-- Zustand (cart state)
+- Framer Motion (optional - if used)
+- Vercel
 
 ---
 
-## 1) Add your product images (required)
+## 🎨 Design Philosophy
 
-Create these folders and add **front/back** images:
+> "A store that feels like hardware."
 
-```
-public/products/Midnight Teal/front.png
-public/products/Midnight Teal/back.png
-
-public/products/Graphite Grey/front.png
-public/products/Graphite Grey/back.png
-
-public/products/Arctic White/front.png
-public/products/Arctic White/back.png
-
-public/products/Crimson Red/front.png
-public/products/Crimson Red/back.png
-
-public/products/Limited Edition Signal Orange/front.png
-public/products/Limited Edition Signal Orange/back.png
-```
-
-> Your folder names can include spaces. This repo is coded to match the product names above.
-
-If you prefer JPG, update extensions in `lib/products.ts` (or rename to PNG).
+Inspired by Apple's product pages, LumaSmart focuses on:
+- Monochrome silhouettes with adaptive illumination
+- Quiet engineering that disappears until needed
+- Product-first presentation without visual noise
 
 ---
 
-## 2) Run locally
+## 🚀 Features
 
+### Interactive Colorway System
+6 premium finishes + prototype variant:
+- Signal Orange (Limited Edition)
+- Graphite Grey
+- Arctic White
+- Midnight Teal
+- Crimson Red
+- Black Prototype
+
+### E-Commerce Flow
+- Product detail pages
+- Variant selection
+- Cart management
+- Mock checkout process
+
+---
+
+## 💻 Getting Started
 ```bash
 npm install
 npm run dev
+# Visit http://localhost:3000
 ```
 
-Open: http://localhost:3000
+---
+
+## 📸 Preview
+
+Visit the live site: **[luma-jacket.vercel.app](https://luma-jacket.vercel.app/)**
 
 ---
 
-## Pages
-- `/` — hero + overview
-- `/shop` — product listing
-- `/product/lumasmart-jacket` — product detail (variants, sizes, cart)
-- `/checkout` — frontend-only checkout (no payment gateway)
-
----
-
-## Deployment
-Recommended: **Vercel**  
-Import repo → Deploy.
-
----
-
-## License
-MIT © 2025
+**Built by [@ElOlamirewaju](https://github.com/ElOlamirewaju)**
