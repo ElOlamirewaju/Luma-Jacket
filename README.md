@@ -38,6 +38,22 @@ Inspired by Apple's product pages, LumaSmart focuses on:
 
 ---
 
+## 🖼️ Screenshots
+
+### Landing Page
+![Landing](https://raw.githubusercontent.com/ElOlamirewaju/Luma-Jacket/main/public/screenshots/landing.png)
+
+### Dashboard  
+![Dashboard](https://raw.githubusercontent.com/ElOlamirewaju/Luma-Jacket/main/public/screenshots/dashboard.png)
+
+### Smoothie Builder
+![Builder](https://raw.githubusercontent.com/ElOlamirewaju/Luma-Jacket/main/public/screenshots/builder.png)
+
+### Progress Tracking
+![Progress](https://raw.githubusercontent.com/ElOlamirewaju/Luma-Jacket/main/public/screenshots/progress.png)
+
+---
+
 ## 🚀 Features
 
 ### Interactive Colorway System
